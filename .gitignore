@@ -1,0 +1,22 @@
+# Editor
+.vscode
+.idea
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+dist/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Others
+hippo_vnet.egg-info/

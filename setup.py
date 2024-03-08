@@ -1,4 +1,8 @@
+import subprocess
 import setuptools
+
+subprocess.run(['chmod','+x',"./pre-install.sh"])
+subprocess.run(['./pre-install.sh'])
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
