@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Install build dependencies
+sudo apt update
 sudo apt install build-essential cmake
 
 # Bind all deprecated git protocol url to https protocol
