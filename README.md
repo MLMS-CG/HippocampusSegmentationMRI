@@ -1,3 +1,4 @@
+
 # Hippocampus Segmentation from MRI using V-Net
 In this repo, hippocampus segmentation from MRI is performed 
 using a Convolutional Neural Network (CNN) architecture based on
@@ -94,12 +95,12 @@ Meshes and images reported in the ```images``` folder have been obtained exploit
 - [ ] Validation on Test set
 
 ## Usage
-Use ```python setup.py install``` for installing this package.
+Use ```poetry install``` for installing this package.
 A complete run (dataset download, train, validation) of the package may be the following:
 ```console
 git clone https://github.com/Nicolik/HippocampusSegmentationMRI.git
 cd HippocampusSegmentationMRI
-python setup.py install
+poetry install
 python run/download.py
 python run/train.py 
 python run/validate.py
