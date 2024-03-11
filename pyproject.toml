@@ -1,0 +1,31 @@
+package-mode = false
+
+[tool.poetry]
+name = "hippo-vnet"
+version = "0.0.1"
+description = "Hippocampus Segmentation from MRI using 3D Convolutional Neural Networks in PyTorch"
+license = "MIT"
+authors = ["Nicola Altini <nicola.altini@poliba.it>"]
+readme = "README.md"
+repository = "https://github.com/Nicolik/HippocampusSegmentationMRI"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.19.0"
+nibabel = "^3.0.0"
+matplotlib = "^3.1.1"
+scipy = "^1.6.1"
+scikit-learn = "^1.0.0"
+SimpleITK = "^2.0.0"
+gdown = "^3.11.1"
+torch = "^1.4.0"
+torchio = "^0.17.46"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

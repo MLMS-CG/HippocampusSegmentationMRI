@@ -20,3 +20,4 @@ venv.bak/
 
 # Others
 hippo_vnet.egg-info/
+datasets/
